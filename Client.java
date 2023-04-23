@@ -122,7 +122,7 @@ public class Client {
     }
 
     public void startWriting() {
-        // thread - get data from user and then send it to client\
+        // thread - get data from user and then send it to client\\
         Runnable r2 = () -> {
             System.out.println("Writer Started");
             while (true) {
